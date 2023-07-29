@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testings GifItem file should match with the snapshot proptype 1`] = `
+<div>
+  <div
+    class="gifItem animate__animated animate__fadeInUp MuiBox-root css-0"
+  >
+    <p>
+      title test
+    </p>
+    <img
+      alt="title test"
+      src="https://test.com/test.jpg"
+    />
+  </div>
+</div>
+`;

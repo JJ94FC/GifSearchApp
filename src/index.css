@@ -1,0 +1,48 @@
+.gifGridContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+/* .gifItem{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    max-height: 15rem;
+} */
+
+.gifItem{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+
+    align-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    overflow: hidden;
+}
+
+/* .gifItem img{
+    margin: auto;
+    max-width: 20rem;
+    max-height: 15rem;
+} */
+
+.gifIte p {
+    background-color: rgb(65, 65, 65);
+    flex: 1;
+    font-size: 1.5rem;
+    margin-top: 5px;
+    padding: 5px 20px 0px 20px;
+    text-align: center;
+}
+
+.gifIte img {
+    width: 100%;
+  height: auto;
+}
